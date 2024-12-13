@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KFC Viet Nam</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://kit.fontawesome.com/918da24142.js"
+            crossorigin="anonymous"></script>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header bg-dark text-white py-3">
+            <div
+                class="container d-flex justify-content-between align-items-center">
+                <!-- Logo -->
+                <a href="#default" class="logo">
+                    <img src="./kfclogo.jpg" alt="KFC" style="height: 50px;">
+                </a>
+
+                <!-- Navigation Links -->
+                <nav class="header-nav d-flex gap-4">
+                    <a href="#thucdon" class="text-white text-uppercase">Thực
+                        Đơn</a>
+                    <a href="#khuyenmai" class="text-white text-uppercase">Khuyến
+                        Mãi</a>
+                    <a href="#dichvutiec" class="text-white text-uppercase">Dịch
+                        Vụ Tiệc</a>
+                    <a href="#hethongnhahang" class="text-white text-uppercase">Hệ
+                        Thống Nhà Hàng</a>
+                </nav>
+
+                <!-- Icons Section -->
+                <div class="header-icons d-flex align-items-center gap-3">
+                    <a href="#language" class="text-white">English</a>
+                    <a href="#account" class="text-white"><i
+                            class="fa-solid fa-user"></i></a>
+                    <a href="#cart" class="text-white"><i
+                            class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="#menu" class="text-white"><i
+                            class="fa-solid fa-bars"></i></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Banner -->
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img
+                        src="https://static.kfcvietnam.com.vn/images/content/home/carousel/lg/DoubleDay1111.webp?v=LNNmnL"
+                        class="d-block w-100" alt="banner1">
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="https://static.kfcvietnam.com.vn/images/content/home/carousel/lg/Deal.webp?v=LNNmnL"
+                        class="d-block w-100" alt="banner2">
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="https://static.kfcvietnam.com.vn/images/content/home/carousel/lg/GroupLunch.webp?v=LNNmnL"
+                        class="d-block w-100" alt="banner3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button"
+                data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button"
+                data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container text-center">
+            <h1>DANH MỤC MÓN ĂN</h1>
+            <div class="row row-cols-4">
+                <div class="col"><div class="card">
+                        <img
+                            src="https://static.kfcvietnam.com.vn/images/category/lg/KHUYEN%20MAI.jpg?v=LNNmnL"
+                            alt="Ưu Đãi" style="width:100%">
+                        <div class="container">
+                            <h4><b>Ưu Đãi</b></h4>
+                        </div>
+                    </div></div>
+                <div class="col"><div class="card">
+                        <img
+                            src="https://static.kfcvietnam.com.vn/images/category/lg/MON%20MOI.jpg?v=LNNmnL"
+                            alt="Món Mới"
+                            style="width:100%">
+                        <div class="container">
+                            <h4><b>Món Mới</b></h4>
+                        </div>
+                    </div></div>
+                <div class="col"><div class="card">
+                        <img
+                            src="https://static.kfcvietnam.com.vn/images/category/lg/COMBO%201%20NGUOI.jpg?v=LNNmnL"
+                            alt="Combo 1 Người"
+                            style="width:100%">
+                        <div class="container">
+                            <h4><b>Combo 1 Người</b></h4>
+                        </div>
+                    </div></div>
+                <div class="col"><div class="card">
+                        <img
+                            src="https://static.kfcvietnam.com.vn/images/category/lg/COMBO%20NHOM.jpg?v=LNNmnL"
+                            alt="Combo Nhóm"
+                            style="width:100%">
+                        <div class="container">
+                            <h4><b>Combo Nhóm</b></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"><div class="card">
+                        <img
+                            src="https://static.kfcvietnam.com.vn/images/category/lg/GA.jpg?v=LNNmnL"
+                            alt="Gà Rán - Gà Quay"
+                            style="width:100%">
+                        <div class="container">
+                            <h4><b>Gà Rán - Gà Quay</b></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"><div class="card">
+                        <img
+                            src="https://static.kfcvietnam.com.vn/images/category/lg/COM.jpg?v=LNNmnL"
+                            alt="Burger - Cơm - Mì Ý"
+                            style="width:100%">
+                        <div class="container">
+                            <h4><b>Burger - Cơm - Mì Ý</b></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"><div class="card">
+                        <img
+                            src="https://static.kfcvietnam.com.vn/images/category/lg/MON%20AN%20NHE.jpg?v=LNNmnL"
+                            alt="Thức Ăn Nhẹ"
+                            style="width:100%">
+                        <div class="container">
+                            <h4><b>Thức Ăn Nhẹ</b></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"><div class="card">
+                        <img
+                            src="https://static.kfcvietnam.com.vn/images/category/lg/COM.jpg?v=LNNmnL"
+                            alt="Avatar"
+                            style="width:100%">
+                        <div class="container">
+                            <h4><b>Burger - Cơm - Mì Ý</b></h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white pt-5 pb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>Danh Mục Món Ăn</h5>
+                        <ul class="list-unstyled">
+                            <li>Ưu Đãi</li>
+                            <li>Món Mới</li>
+                            <li>Combo 1 Người</li>
+                            <li>Combo Nhóm</li>
+                            <li>Gà Rán - Gà Quay</li>
+                            <li>Burger - Cơm - Mì Ý</li>
+                            <li>Thức Ăn Nhẹ</li>
+                            <li>Thức Uống & Tráng Miệng</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Về KFC</h5>
+                        <ul class="list-unstyled">
+                            <li>Câu Chuyện Của Chúng Tôi</li>
+                            <li>Tin Khuyến Mãi</li>
+                            <li>Tin tức KFC</li>
+                            <li>Tuyển dụng</li>
+                            <li>Đặt tiệc Sinh nhật</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Liên hệ KFC</h5>
+                        <ul class="list-unstyled">
+                            <li>Theo dõi đơn hàng</li>
+                            <li>Hệ Thống Nhà Hàng</li>
+                            <li>Liên hệ KFC</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Chính sách</h5>
+                        <ul class="list-unstyled">
+                            <li>Chính sách hoạt động</li>
+                            <li>Chính sách và quy định</li>
+                            <li>Chính sách bảo mật thông tin</li>
+                        </ul>
+                        <h5 class="mt-3">Download App</h5>
+                        <div>
+                            <a href="#"><img
+                                    src="data:image/png;base64,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"
+                                    alt="App Store" class="me-2" width="120"></a>
+                            <a href="#"><img
+                                    src="data:image/png;base64,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"
+                                    alt="Google Play" width="120"></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <p class="mb-0">Copyright © 2023 KFC Vietnam</p>
+                    </div>
+                </div>
+                <hr class="border-light mt-4">
+                <div>
+                    <p class="mb-0">CÔNG TY LIÊN DOANH TNHH KFC VIỆT NAM</p>
+                    <p>Số 292 Bà Triệu, P. Lê Đại Hành, Q. Hai Bà Trưng, TP. Hà
+                        Nội.</p>
+                    <p>Điện thoại: (028) 38489828 | Email:
+                        lienhe@kfcvietnam.com.vn</p>
+                    <p>Mã số thuế: 0100773885</p>
+                    <p>Ngày cấp: 29/10/1998 - Nơi cấp: Cục Thuế Thành Phố Hà Nội</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
